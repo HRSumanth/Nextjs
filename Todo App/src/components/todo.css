@@ -1,0 +1,51 @@
+/* App.css */
+
+.container {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bolder;
+  }
+  
+  hr {
+    margin-bottom: 1rem;
+  }
+  
+  .todo-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .todo-input input {
+    padding: 0.5rem;
+    font-size: 1rem;
+    margin-right: 0.5rem;
+  }
+  
+  .todo-input button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+  }
+  
+  .todo-item {
+    width: 400px;
+    margin-left: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #343a40;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .todo-text {
+    flex: 1;
+  }
+  
+  .todo-buttons {
+    display: flex;
+    gap: 0.5rem;
+  }
+  
